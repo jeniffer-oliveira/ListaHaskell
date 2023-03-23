@@ -1,4 +1,4 @@
-
+-- 3.2) Faça o tipo Temperatura que pode ter valores Celsius, Farenheit ou Kelvin. Implemente as funções:  converterCelsius: recebe um valor double e uma temperatura, e faz a conversão para Celsius. converterKelvin: recebe um valor double e uma temperatura, e faz a conversão para Kelvin. converterFarenheit: recebe um valor double  e uma temperatura, e faz a conversão para Farenheit.
 
 data Temperatura = Celsius Double | Farenheit Double| Kelvin Double deriving Show 
 
